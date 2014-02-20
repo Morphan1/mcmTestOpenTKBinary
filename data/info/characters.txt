@@ -1,0 +1,16 @@
+// This is all the characters that will be prerendered for the font handling code.
+// Newlines are ignored, lines beginning with // are ignored
+//
+// Letters
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+// Numbers
+0123456789
+// Common symbols
+!@#$%^& * ()
+-_=+,./<>?[]{}\|;:'"`~
+// Special symbols
+⌂ÇüéâäàåçêëèïîìÄÅÉæÆôöò
+ûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡
+«»░▒▓│§¶‼↕◄►☼♫♪▬↨↑↓→←∟↔╥▼
+█
