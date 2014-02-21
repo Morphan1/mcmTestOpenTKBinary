@@ -7,7 +7,7 @@ abcdefghijklmnopqrstuvwxyz
 // Numbers
 0123456789
 // Common symbols
-!@#$%^& * ()
+!@#$%^	& * ()
 -_=+,./<>?[]{}\|;:'"`~
 // Special symbols
 ⌂ÇüéâäàåçêëèïîìÄÅÉæÆôöò
