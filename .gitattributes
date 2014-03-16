@@ -20,3 +20,5 @@
 *.ogg binary
 *.dll binary
 *.wav binary
+*.dat binary
+*.bin binary
