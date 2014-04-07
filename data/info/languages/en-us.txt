@@ -3,8 +3,7 @@ general:
 	# The full name of the language pack
 	name: English (United States)
 	# This message will be used if another message is missing. If this is missing, a super-generic English internal will be used.
-	# Note: <{1}> indicates the message ID that didn't resolve.
-	nomessage: (MISSING MESSAGE '<{COLOR_EMPHASIS}><{1}><{COLOR_BASE}>')
+	nomessage: (MISSING MESSAGE '<{COLOR.EMPHASIS}><{var[message]}><{COLOR.BASE}>')
 # Messages for when communicating with the Global Server, attempting to login
 login:
 	refused:
@@ -12,15 +11,13 @@ login:
 		toolong: The username you input was too long to be processed.
 		tooshort: The username you input was too short to be processed.
 		startenglish: All usernames must begin with a standard English letter, or they cannot be processed.
-		# Note: <{1}> indicates the symbol that was rejected by the server.
-		badsymbol: The symbol <{COLOR_EMPHASIS}><{1}> <{COLOR_BASE}>cannot be used in usernames.
+		badsymbol: The symbol <{COLOR.EMPHASIS}><{var[error_data]}> <{COLOR.BASE}>cannot be used in usernames.
 		badname: The username you input does not exist. Are you sure you spelled it correctly?
 		badpass: You input the wrong password, or are trying to login too rapidly.
-		banned: You have been globally banned because: <{COLOR_EMPHASIS}><{1}><{COLOR_BASE}>.
+		banned: You have been globally banned because: <{COLOR.EMPHASIS}><{var[error_data]}><{COLOR.BASE}>.
 		internal: An internal error occurred while processing the login request.
 	accepted:
-		# Note: <{1}> indicates the username.
-		success: You have successfully logged in as <{COLOR_EMPHASIS}><{1}><{COLOR_BASE}>.
+		success: You have successfully logged in as <{COLOR.EMPHASIS}><{var[username]}><{COLOR.BASE}>.
 # Messages for when communicating with the Global Server, attempting to register
 # Note that many of the register messages will be duplicates of the above login messages
 register:
@@ -29,10 +26,8 @@ register:
 		toolong: The username you input was too long to be processed.
 		tooshort: The username you input was too short to be processed.
 		startenglish: All usernames must begin with a standard English letter, or they cannot be processed.
-		# Note: <{1}> indicates the symbol that was rejected by the server.
-		badsymbol: The symbol <{COLOR_EMPHASIS}><{1}> <{COLOR_BASE}>cannot be used in usernames.
+		badsymbol: The symbol <{COLOR.EMPHASIS}><{var[error_data]}> <{COLOR.BASE}>cannot be used in usernames.
 		exists: That username has already been taken by another user, please choose a different name.
 		internal: An internal error occurred while processing the registration request.
 	accepted:
-		# Note: <{1}> indicates the username.
-		success: You have successfully registered as <{COLOR_EMPHASIS}><{1}><{COLOR_BASE}>.
+		success: You have successfully registered as <{COLOR.EMPHASIS}><{var[username]}><{COLOR.BASE}>.
