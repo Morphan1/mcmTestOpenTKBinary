@@ -1,0 +1,30 @@
+cube
+{
+	position: 0, 0, 0;
+	scale: 10, 10, 20;
+	texture: common/test;
+}
+cube
+{
+	position: 15, 0, 0;
+	scale: 10, 10, 20;
+	texture: common/sky;
+}
+cube
+{
+	position: 50, 0, 0;
+	scale: 10, 10, 20;
+	texture: common/console;
+}
+cube
+{
+	position: 100, 0, 0;
+	scale: 10, 10, 20;
+	texture: common/test;
+}
+cube
+{
+	position: 150, 0, 0;
+	scale: 10, 10, 20;
+	texture: common/test;
+}
