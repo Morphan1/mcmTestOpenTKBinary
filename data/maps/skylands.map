@@ -1,30 +1,30 @@
 cube
 {
-	position: 0, 0, 0;
-	scale: 10, 10, 20;
-	texture: common/test;
+	position: -100, -100, -5;
+	scale: 200, 200, 5;
+	texture: skylands/ground;
 }
 cube
 {
-	position: 15, 0, 0;
-	scale: 10, 10, 20;
-	texture: common/sky;
+	position: -95, -100, 0;
+	scale: 195, 5, 20;
+	texture: skylands/wall1;
 }
 cube
 {
-	position: 50, 0, 0;
-	scale: 10, 10, 20;
-	texture: common/console;
+	position: 100, -100, 0;
+	scale: 5, 200, 20;
+	texture: skylands/wall2;
 }
 cube
 {
-	position: 100, 0, 0;
-	scale: 10, 10, 20;
-	texture: common/test;
+	position: -100, -100, 0;
+	scale: 5, 200, 20;
+	texture: skylands/wall2;
 }
 cube
 {
-	position: 150, 0, 0;
-	scale: 10, 10, 20;
-	texture: common/test;
+	position: -100, 100, 0;
+	scale: 205, 5, 20;
+	texture: skylands/wall1;
 }
