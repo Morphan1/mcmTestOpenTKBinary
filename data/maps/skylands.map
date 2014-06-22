@@ -48,3 +48,12 @@ cube
 	texture_hshift: 0;
 	texture_vshift: 0;
 }
+spawnpoint
+{
+	position: 0, 0, 1;
+}
+
+spawnpoint
+{
+	position: 100, 100, 21;
+}
