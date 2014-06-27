@@ -48,6 +48,36 @@ cube
 	texture_hshift: 0;
 	texture_vshift: 0;
 }
+cube
+{
+	position: -95, 90, 0;
+	scale: 10, 10, 10;
+	texture: skylands/wall3;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -95, 95, 10;
+	scale: 5, 5, 5;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -95, 85, 0;
+	scale: 5, 5, 5;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
 spawnpoint
 {
 	position: 0, 0, 1;
