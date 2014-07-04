@@ -78,12 +78,83 @@ cube
 	texture_hshift: 0;
 	texture_vshift: 0;
 }
-spawnpoint
+cube
 {
-	position: 0, 0, 1;
+	position: -95, 80, 0;
+	scale: 5, 5, 4;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
 }
-
+cube
+{
+	position: -95, 75, 0;
+	scale: 5, 5, 3;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -95, 70, 0;
+	scale: 5, 5, 2;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -95, 65, 0;
+	scale: 5, 5, 1;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: 0, 0, 7;
+	scale: 5, 5, 5;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: 30, 0, 0;
+	scale: 10, 10, 5;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: 30, 0, 11;
+	scale: 10, 10, 5;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
 spawnpoint
 {
 	position: 100, 100, 21;
+	direction: 45, 0, 0;
+}
+spawnpoint
+{
+	position: -100, -100, 21;
+	direction: 225, 0, 0;
 }
