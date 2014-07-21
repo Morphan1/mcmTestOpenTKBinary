@@ -2,3 +2,5 @@
 *.mcmap
 *.log
 /data/users/
+*clientconfig.cfg
+*serverconfig.cfg
