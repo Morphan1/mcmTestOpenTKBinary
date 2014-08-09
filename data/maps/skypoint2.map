@@ -1,0 +1,162 @@
+cube
+{
+	position: -200, -200, -10;
+	scale: 400, 400, 10;
+	texture: skylands/ground;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -190, -200, 0;
+	scale: 390, 10, 40;
+	texture: skylands/wall1;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: 200, -200, 0;
+	scale: 10, 400, 40;
+	texture: skylands/wall2;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -200, -200, 0;
+	scale: 10, 400, 40;
+	texture: skylands/wall2;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -200, 200, 0;
+	scale: 410, 10, 40;
+	texture: skylands/wall1;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -190, 180, 0;
+	scale: 20, 20, 20;
+	texture: skylands/wall3;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -190, 190, 20;
+	scale: 10, 10, 10;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -190, 170, 0;
+	scale: 10, 10, 10;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -190, 160, 0;
+	scale: 10, 10, 8;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -190, 150, 0;
+	scale: 10, 10, 6;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -190, 140, 0;
+	scale: 10, 10, 4;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: -190, 130, 0;
+	scale: 10, 10, 2;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: 0, 0, 14;
+	scale: 10, 10, 10;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+cube
+{
+	position: 60, 0, 0;
+	scale: 20, 20, 10;
+	texture: skylands/wall4;
+	texture_hscale: 1;
+	texture_vscale: 1;
+	texture_hshift: 0;
+	texture_vshift: 0;
+}
+polyplanar
+{
+	position: 0, 0, 0;
+	planes: [(60, 0, 22)/(80, 0, 22)/(80, 0, 32)]_[(80, 0, 32)/(60, 0, 32)/(60, 0, 22)]_[(60, 20, 22)/(80, 20, 32)/(80, 20, 22)]_[(60, 20, 32)/(80, 20, 32)/(60, 20, 22)]_[(60, 20, 22)/(60, 0, 22)/(60, 20, 32)]_[(60, 20, 32)/(60, 0, 22)/(60, 0, 32)]_[(80, 0, 22)/(80, 20, 22)/(80, 20, 32)]_[(80, 20, 32)/(80, 0, 32)/(80, 0, 22)]_[(80, 20, 22)/(80, 0, 22)/(60, 0, 22)]_[(60, 0, 22)/(60, 20, 22)/(80, 20, 22)]_[(60, 0, 32)/(80, 0, 32)/(80, 20, 32)]_[(80, 20, 32)/(60, 20, 32)/(60, 0, 32)]_;
+	texture: skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4;
+}
+polyplanar
+{
+	position: 0, 0, 0;
+	planes: [(30, 70, 20)/(50, 70, 20)/(40, 80, 34)]_[(50, 70, 20)/(50, 90, 20)/(40, 80, 34)]_[(50, 90, 20)/(30, 90, 20)/(40, 80, 34)]_[(30, 90, 20)/(30, 70, 20)/(40, 80, 34)]_[(30, 70, 20)/(30, 90, 20)/(50, 90, 20)]_[(50, 90, 20)/(50, 70, 20)/(30, 70, 20)]_;
+	texture: skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4|skylands/wall4;
+}
+spawnpoint
+{
+	position: 200, 200, 42;
+	direction: 90, 0, 0;
+}
+spawnpoint
+{
+	position: -200, -200, 42;
+	direction: 450, 0, 0;
+}
